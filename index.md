@@ -35,10 +35,6 @@ Your selected theme color and tutorial completion status are saved locally using
 
 If you subscribe to premium features, your purchase status is managed by Apple through StoreKit. We do not collect or store payment information.
 
-### OpenAI API Key (Optional - Premium Feature)
-
-If you choose to use the AI Memories feature, you provide your own OpenAI API key. This key is stored locally on your device.
-
 ---
 
 ## How We Use Your Information
@@ -48,7 +44,6 @@ If you choose to use the AI Memories feature, you provide your own OpenAI API ke
 | Voice recordings | Playback of your journal entries |
 | Transcriptions | Display and search of journal entries |
 | Display name | Personalization within the App |
-| OpenAI API key | Authenticating requests to OpenAI for AI Memories |
 
 ---
 
@@ -57,12 +52,6 @@ If you choose to use the AI Memories feature, you provide your own OpenAI API ke
 ### Apple Speech Recognition
 
 The App uses Apple's on-device speech recognition framework. Audio is processed locally and is **not** sent to Apple's servers. The App explicitly requires on-device recognition only.
-
-### OpenAI API (Optional)
-
-If you enable the AI Memories feature, the App sends **journal transcription text** (up to 20 recent entries) to OpenAI's API (`api.openai.com`) to generate personalized memory insights. This is the **only circumstance** in which any of your journal data leaves your device.
-
-Your use of the OpenAI API is subject to [OpenAI's Privacy Policy](https://openai.com/privacy) and [Usage Policies](https://openai.com/policies).
 
 ### Apple StoreKit
 
@@ -81,7 +70,7 @@ In-app purchases are processed entirely by Apple. We do not have access to your 
 
 ## Data Sharing
 
-We do **not** sell, share, or transfer your personal data to any third parties, with the sole exception of the optional OpenAI integration described above, which you must explicitly enable.
+We do **not** sell, share, or transfer your personal data to any third parties.
 
 ---
 
